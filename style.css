@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    height: 100%;
+    width: 100%;
+    padding: 30px;
+    /* background-color: rgb(30, 29, 64); */
+   /* background: #1c0024; */
+background: linear-gradient(90deg, rgba(28, 0, 36, 1) 0%, rgba(121, 9, 89, 1) 56%, rgba(255, 0, 106, 1) 100%);
+}
+h1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.add-input{
+    padding: 20px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+input{
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 20px;
+    outline: none;
+    font-size: 20px;
+}
+#add-btn{
+    padding: 5px 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.todo-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+.todo{
+    width: 100%;
+    padding: 8px;
+    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+    background-blend-mode: multiply,multiply;
+    font-size: 16px;
+    display: flex;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 20px;
+}
+.todo p{
+    width: 90%;
+    color: white;
+    padding: 5px;
+    overflow: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.delete-btn{
+    width: 10%;
+    background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 0;
+    border-radius: 15px;
+}
+#gg{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    display: none;
+}
